@@ -1,0 +1,595 @@
+/* Global Styles Template V1 */
+
+/*
+  This CSS file serves as a starter template for custom website projects.
+  Update the variables (fonts, colors, sizes, etc.) as needed to make global changes.
+  This helps maintain consistent styling throughout your project.
+*/
+
+/* -------- Root Variables -------- */
+
+:root {
+    --font-primary: 'Oswald', sans-serif;
+    --font-secondary: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    --f-size-1: 40px;
+    --f-size-2: 30px;
+    --f-size-3: 26px;
+    --f-size-4: 24px;
+    --f-size-5: 20px;
+    --f-size-6: 18px;
+    --f-size-7: 16px;
+    --f-size-8: 14px;
+    --f-size-9: 12px;
+    --f-size-10: 10px;
+    --f-size-11: 8px;
+}
+
+/* Colors */
+:root {
+    --primary: #092345;
+    --secondary: #E0BC73;
+    --tertiary: #184986;
+    --quaternary: #061A33;
+    --primary-rgba: rgba(9, 35, 69, 1);
+    --secondary-rgba: rgba(224, 188, 115, 1);
+    --tertiary-rgba: rgba(24, 73, 134, 1);
+    --quaternary-rgba: rgba(6, 26, 51, 0.85);
+    --primary-rgba-15: rgba(9, 35, 69, 0.15);
+    --secondary-rgba-15: rgba(224, 188, 115, 0.15);
+    --tertiary-rgba-15: rgba(24, 73, 134, 0.15);
+    --quaternary-rgba-15: rgba(6, 26, 51, 0.15);
+    --primary-rgba-85: rgba(9, 35, 69, 0.85);
+    --secondary-rgba-85: rgba(224, 188, 115, 0.85);
+    --tertiary-rgba-85: rgba(24, 73, 134, 0.85);
+    --quaternary-rgba-85: rgba(6, 26, 51, 0.85);
+    --primary-rgba-30: rgba(9, 35, 69, 0.30);
+    --secondary-rgba-30: rgba(224, 188, 115, 0.30);
+    --tertiary-rgba-30: rgba(24, 73, 134, 0.30);
+    --quaternary-rgba-30: rgba(6, 26, 51, 0.30);
+    --white: #FFFFFF;
+    --white-rgba-50: rgba(255, 255, 255, 0.5);
+    --black: #000000;
+    --dark-gray: #F5F5F5;
+    --light-gray: #FAFAFA;
+    --success: #A0FFA4;
+    --danger: #FF5D5D;
+    --warning: #FFC400;
+    --info: #2196F3;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--font-primary);
+}
+
+h1 {
+    font-size: var(--f-size-1);
+}
+
+h2 {
+    font-size: var(--f-size-2);
+}
+
+h3 {
+    font-size: var(--f-size-3);
+}
+
+h4 {
+    font-size: var(--f-size-4);
+}
+
+h5 {
+    font-size: var(--f-size-5);
+}
+
+body, p, li, ul, ol, span {
+    font-family: var(--font-secondary);
+    font-size: var(--f-size-6);
+}
+
+.disclaimer {
+    font-family: var(--font-secondary);
+    font-size: var(--f-size-10);
+}
+
+
+/* Borders */
+:root {
+    --br-2: 2px;
+    --br-3: 3px;
+    --br-4: 4px;
+    --br-5: 5px;
+    --br-6: 6px;
+    --br-10: 10px;
+    --br-20: 20px;
+    --br-30: 30px;
+    --br-40: 40px;
+    --br-50: 50px;
+    --br-60: 60px;
+    --br-70: 70px;
+    --br-80: 80px;
+    --br-90: 90px;
+    --br-100: 100px;
+}
+
+/* Transitions Time */
+:root {
+    --tr-1: 0.2s;
+    --tr-2: 0.4s;
+    --tr-3: 0.6s;
+    --tr-4: 0.8s;
+    --tr-5: 1s;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-2023 {
+    width: 100%;
+    border-radius: var(--br-6);
+}
+
+.primary, .primary h1, .primary h2, .primary h3, .primary h4, .primary h5, .primary h6, .primary p, .primary a, .primary ul, .primary li {
+    color: var(--primary);
+}
+
+.secondary, .secondary h1, .secondary h2, .secondary h3, .secondary h4, .secondary h5, .secondary h6, .secondary p, .secondary a, .secondary ul, .secondary li {
+    color: var(--secondary);
+}
+
+.tertiary, .tertiary h1, .tertiary h2, .tertiary h3, .tertiary h4, .tertiary h5, .tertiary h6, .tertiary p, .tertiary a, .tertiary ul, .tertiary li {
+    color: var(--tertiary);
+}
+
+.quaternary, .quaternary h1, .quaternary h2, .quaternary h3, .quaternary h4, .quaternary h5, .quaternary h6, .quaternary p, .quaternary a, .quaternary ul, .quaternary li {
+    color: var(--quaternary);
+}
+
+.white, .white h1, .white h2, .white h3, .white h4, .white h5, .white h6, .white p, .white a, .white ul, .white li {
+    color: var(--white);
+}
+
+.black, .black h1, .black h2, .black h3, .black h4, .black h5, .black h6, .black p, .black a, .black ul, .black li {
+    color: var(--black);
+}
+
+.dark-gray, .dark-gray h1, .dark-gray h2, .dark-gray h3, .dark-gray h4, .dark-gray h5, .dark-gray h6, .dark-gray p, .dark-gray a, .dark-gray ul, .dark-gray li {
+    color: var(--dark-gray);
+}
+
+.light-gray, .light-gray h1, .light-gray h2, .light-gray h3, .light-gray h4, .light-gray h5, .light-gray h6, .light-gray p, .light-gray a, .light-gray ul, .light-gray li {
+    color: var(--light-gray);
+}
+
+.primary-background {
+    background-color: var(--primary);
+}
+
+.secondary-background {
+    background-color: var(--secondary);
+}
+
+.tertiary-background {
+    background-color: var(--tertiary);
+}
+
+.quaternary-background {
+    background-color: var(--quaternary);
+}
+
+.black-background {
+    background-color: var(--black);
+}
+
+.white-background {
+    background-color: var(--white);
+}
+
+.dark-gray-background {
+    background-color: var(--dark-gray);
+}
+
+.light-gray-background {
+    background-color: var(--light-gray);
+}
+
+.link {
+    font-weight: 800 !important;
+    color: var(--primary) !important;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    color: var(--dark-gray) !important;
+}
+
+.btn {
+    padding: 8px 15px;
+    text-transform: capitalize;
+    transition: all 0.2s;
+    text-align: center;
+    font-family: var(--font-secondary);
+    display: inline-block;
+    border-radius: 0;
+    font-weight: 600;
+    width: 100%;
+    max-width: 170px;
+    margin: 0 auto;
+}
+
+.btn img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.btn-small {
+    padding: 4px 5px !important;
+    font-size: var(--f-size-8) !important;
+}
+
+
+
+.btn-1 {
+    color: var(--primary);
+    background: var(--secondary);
+}
+
+.btn-1:hover {
+    background: var(--white);
+    color: var(--primary) !important;
+}
+
+.btn-2 {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+.btn-2:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.btn-3 {
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+.btn-3:hover {
+    color: var(--white);
+    background-color: var(--dark-gray);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left_to_center {
+    text-align: left;
+}
+
+.right_to_center {
+    text-align: right;
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-flex {
+    display: flex;
+}
+
+.row-center {
+    align-items: center;
+}
+
+
+
+
+/* Padding / Margin */
+.p-0 {
+    padding: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+.pt-0 {
+    padding-top: 0px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+
+.mw-1200 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mw-1000 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mw-900 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.mw-800 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mw-700 {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+/* ------------------ Custom Styles ------------------ */
+
+
+.d-tablet, .d-mobile {
+    display: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.overlay-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 27%, rgba(0, 0, 0, 0) 28%);
+    pointer-events: none;
+}
+
+
+
+
+
+/* ------------------ Custom Styles ------------------ */
+
+
+/*Media Queries*/
+
+@media all and (max-width: 1200px) {
+
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+
+
+}
+
+@media all and (max-width: 980px) {
+
+    h1 {
+        font-size: var(--f-size-2);
+    }
+
+    h2 {
+        font-size: var(--f-size-3);
+    }
+
+    h3 {
+        font-size: var(--f-size-4);
+    }
+
+    h4 {
+        font-size: var(--f-size-5);
+    }
+
+    h5 {
+        font-size: var(--f-size-6);
+    }
+
+    body, p, li, ul, ol, span {
+        font-size: var(--f-size-7);
+    }
+
+
+
+    .btn-1, .btn-2, .btn-3 {
+        font-size: var(--f-size-7);
+    }
+
+    .d-tablet {
+        display: block;
+    }
+
+    .d-desktop-tablet {
+        display: none !important;
+    }
+
+    .d-tablet {
+        display: block;
+    }
+
+    .d-desktop-tablet {
+        display: none;
+    }
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+
+
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+}
+
+@media all and (max-width: 767px) {
+
+
+    h1 {
+        font-size: var(--f-size-3);
+    }
+
+    h2 {
+        font-size: var(--f-size-4);
+    }
+
+    h3 {
+        font-size: var(--f-size-5);
+    }
+
+    h4 {
+        font-size: var(--f-size-6);
+    }
+
+    h5 {
+        font-size: var(--f-size-7);
+    }
+
+    body, p, li, ul, ol, span {
+        font-size: var(--f-size-8);
+    }
+
+    .disclaimer {
+        font-family: var(--font-secondary);
+        font-size: var(--f-size-11);
+    }
+
+    .header {
+        background: var(--primary) !important;
+    }
+
+
+    .btn-1, .btn-2, .btn-3 {
+        font-size: var(--f-size-7);
+    }
+
+
+    .btn-link {
+        background: none !important;
+        padding: 14px 0 !important;
+        color: var(--primary) !important;
+        text-decoration: underline;
+        font-weight: 800;
+        font-size: var(--f-size-7) !important;
+        text-transform: capitalize !important;
+    }
+
+    .btn-link:hover {
+        color: var(--dark-gray) !important;
+    }
+
+
+    .d-mobile {
+        display: block;
+    }
+
+    .d-desktop-mobile {
+        display: none !important;
+    }
+
+
+
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+
+
+
+
+
+
+
+    /* ------------------ Custom Styles ------------------ */
+
+}
+
+@media all and (max-width: 479px) {}
+
+
+/* -------- End of Global Styles -------- */
+
+/*
+  Note to developers:
+  - You can extend this template as needed.
+  - Add your custom classes below to avoid modifying the global styles.
+*/
